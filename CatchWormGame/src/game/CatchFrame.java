@@ -19,7 +19,7 @@ public class CatchFrame extends JFrame{
 		setVisible(true);
 		setResizable(false);
 		Thread t1 = new Thread(paper);
-		t1.start();
+		t1.start();  
 	}
 
 }
